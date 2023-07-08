@@ -100,3 +100,22 @@ main section{
 .info-description{
     text-align: center;
 }
+/* What I can Do section start here  */
+.what-description{
+    padding: 30px 150px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 30px rgba(10, 47, 180, 0.5);
+}
+.skill-description{
+    color: #757575;
+}
