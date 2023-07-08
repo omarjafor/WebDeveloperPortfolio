@@ -119,6 +119,36 @@ main section{
 .skill-description{
     color: #757575;
 }
+/* My Resume Section Start Here  */
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-column-title{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.resume-item-title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-item-institution{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-item-institution,
+.resume-item-description{
+    color: #757575;
+}
+.resume-container hr{
+    margin: 30px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
 /* footer section start here  */
 footer{
     display: flex;
@@ -134,6 +164,9 @@ footer{
     color: #757575;
     text-align: center;
     font-size: 18px;
+}
+.social-links{
+    text-align: center;
 }
 .social-links a{
     margin-right: 25px;
